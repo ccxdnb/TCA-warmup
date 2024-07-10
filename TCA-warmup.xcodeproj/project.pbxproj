@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E0FCD582C3DAF4000E5E7D8 /* TCA_warmupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCD572C3DAF4000E5E7D8 /* TCA_warmupApp.swift */; };
+		1E0FCD5C2C3DAF4200E5E7D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0FCD5B2C3DAF4200E5E7D8 /* Assets.xcassets */; };
+		1E0FCD5F2C3DAF4200E5E7D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0FCD5E2C3DAF4200E5E7D8 /* Preview Assets.xcassets */; };
+		1E0FCD692C3DAF4300E5E7D8 /* TCA_warmupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCD682C3DAF4300E5E7D8 /* TCA_warmupTests.swift */; };
+		1E0FCD732C3DAF4300E5E7D8 /* TCA_warmupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCD722C3DAF4300E5E7D8 /* TCA_warmupUITests.swift */; };
+		1E0FCD752C3DAF4300E5E7D8 /* TCA_warmupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCD742C3DAF4300E5E7D8 /* TCA_warmupUITestsLaunchTests.swift */; };
+		1E0FCD832C3DAFAB00E5E7D8 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1E0FCD822C3DAFAB00E5E7D8 /* ComposableArchitecture */; };
+		1E0FCD852C3DAFEB00E5E7D8 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCD842C3DAFEB00E5E7D8 /* CounterFeature.swift */; };
+		1E0FCD872C3DB38E00E5E7D8 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCD862C3DB38E00E5E7D8 /* CounterView.swift */; };
+		1E0FCD8B2C3EE5B900E5E7D8 /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCD892C3EE5AD00E5E7D8 /* CounterFeatureTests.swift */; };
+		1E0FCD8D2C3EEE7E00E5E7D8 /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCD8C2C3EEE7E00E5E7D8 /* NumberFactClient.swift */; };
+		1E0FCD932C3EF30E00E5E7D8 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCD922C3EF30E00E5E7D8 /* AppView.swift */; };
+		1E0FCD952C3EF3ED00E5E7D8 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCD942C3EF3ED00E5E7D8 /* AppFeature.swift */; };
+		1E0FCD972C3EF49E00E5E7D8 /* AppFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCD962C3EF49E00E5E7D8 /* AppFeatureTests.swift */; };
+		1E0FCD992C3F068700E5E7D8 /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCD982C3F068700E5E7D8 /* ContactsFeature.swift */; };
+		1E0FCD9B2C3F072E00E5E7D8 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCD9A2C3F072E00E5E7D8 /* ContactsView.swift */; };
+		1E0FCD9D2C3F079700E5E7D8 /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCD9C2C3F079700E5E7D8 /* AddContactFeature.swift */; };
+		1E0FCD9F2C3F07F100E5E7D8 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FCD9E2C3F07F100E5E7D8 /* AddContactView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E0FCD652C3DAF4300E5E7D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E0FCD4C2C3DAF4000E5E7D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E0FCD532C3DAF4000E5E7D8;
+			remoteInfo = "TCA-warmup";
+		};
+		1E0FCD6F2C3DAF4300E5E7D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E0FCD4C2C3DAF4000E5E7D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E0FCD532C3DAF4000E5E7D8;
+			remoteInfo = "TCA-warmup";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E0FCD542C3DAF4000E5E7D8 /* TCA-warmup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCA-warmup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0FCD572C3DAF4000E5E7D8 /* TCA_warmupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_warmupApp.swift; sourceTree = "<group>"; };
+		1E0FCD5B2C3DAF4200E5E7D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E0FCD5E2C3DAF4200E5E7D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E0FCD642C3DAF4300E5E7D8 /* TCA-warmupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCA-warmupTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0FCD682C3DAF4300E5E7D8 /* TCA_warmupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_warmupTests.swift; sourceTree = "<group>"; };
+		1E0FCD6E2C3DAF4300E5E7D8 /* TCA-warmupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCA-warmupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0FCD722C3DAF4300E5E7D8 /* TCA_warmupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_warmupUITests.swift; sourceTree = "<group>"; };
+		1E0FCD742C3DAF4300E5E7D8 /* TCA_warmupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_warmupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E0FCD842C3DAFEB00E5E7D8 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
+		1E0FCD862C3DB38E00E5E7D8 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		1E0FCD882C3EDF8E00E5E7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1E0FCD892C3EE5AD00E5E7D8 /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CounterFeatureTests.swift; path = ../../../Documents/CounterFeatureTests.swift; sourceTree = "<group>"; };
+		1E0FCD8C2C3EEE7E00E5E7D8 /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
+		1E0FCD922C3EF30E00E5E7D8 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		1E0FCD942C3EF3ED00E5E7D8 /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+		1E0FCD962C3EF49E00E5E7D8 /* AppFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeatureTests.swift; sourceTree = "<group>"; };
+		1E0FCD982C3F068700E5E7D8 /* ContactsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeature.swift; sourceTree = "<group>"; };
+		1E0FCD9A2C3F072E00E5E7D8 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		1E0FCD9C2C3F079700E5E7D8 /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
+		1E0FCD9E2C3F07F100E5E7D8 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E0FCD512C3DAF4000E5E7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0FCD832C3DAFAB00E5E7D8 /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0FCD612C3DAF4300E5E7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0FCD6B2C3DAF4300E5E7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E0FCD4B2C3DAF4000E5E7D8 = {
+			isa = PBXGroup;
+			children = (
+				1E0FCD562C3DAF4000E5E7D8 /* TCA-warmup */,
+				1E0FCD672C3DAF4300E5E7D8 /* TCA-warmupTests */,
+				1E0FCD712C3DAF4300E5E7D8 /* TCA-warmupUITests */,
+				1E0FCD552C3DAF4000E5E7D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E0FCD552C3DAF4000E5E7D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FCD542C3DAF4000E5E7D8 /* TCA-warmup.app */,
+				1E0FCD642C3DAF4300E5E7D8 /* TCA-warmupTests.xctest */,
+				1E0FCD6E2C3DAF4300E5E7D8 /* TCA-warmupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E0FCD562C3DAF4000E5E7D8 /* TCA-warmup */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FCD882C3EDF8E00E5E7D8 /* Info.plist */,
+				1E0FCD572C3DAF4000E5E7D8 /* TCA_warmupApp.swift */,
+				1E0FCD5B2C3DAF4200E5E7D8 /* Assets.xcassets */,
+				1E0FCD912C3EF2E800E5E7D8 /* Clients */,
+				1E0FCD5D2C3DAF4200E5E7D8 /* Preview Content */,
+				1E0FCD902C3EF2DF00E5E7D8 /* Reducers */,
+				1E0FCD8E2C3EF2D000E5E7D8 /* Views */,
+			);
+			path = "TCA-warmup";
+			sourceTree = "<group>";
+		};
+		1E0FCD5D2C3DAF4200E5E7D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FCD5E2C3DAF4200E5E7D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E0FCD672C3DAF4300E5E7D8 /* TCA-warmupTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FCD682C3DAF4300E5E7D8 /* TCA_warmupTests.swift */,
+				1E0FCD892C3EE5AD00E5E7D8 /* CounterFeatureTests.swift */,
+				1E0FCD962C3EF49E00E5E7D8 /* AppFeatureTests.swift */,
+			);
+			path = "TCA-warmupTests";
+			sourceTree = "<group>";
+		};
+		1E0FCD712C3DAF4300E5E7D8 /* TCA-warmupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FCD722C3DAF4300E5E7D8 /* TCA_warmupUITests.swift */,
+				1E0FCD742C3DAF4300E5E7D8 /* TCA_warmupUITestsLaunchTests.swift */,
+			);
+			path = "TCA-warmupUITests";
+			sourceTree = "<group>";
+		};
+		1E0FCD8E2C3EF2D000E5E7D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FCD862C3DB38E00E5E7D8 /* CounterView.swift */,
+				1E0FCD922C3EF30E00E5E7D8 /* AppView.swift */,
+				1E0FCD9A2C3F072E00E5E7D8 /* ContactsView.swift */,
+				1E0FCD9E2C3F07F100E5E7D8 /* AddContactView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1E0FCD902C3EF2DF00E5E7D8 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FCD842C3DAFEB00E5E7D8 /* CounterFeature.swift */,
+				1E0FCD982C3F068700E5E7D8 /* ContactsFeature.swift */,
+				1E0FCD942C3EF3ED00E5E7D8 /* AppFeature.swift */,
+				1E0FCD9C2C3F079700E5E7D8 /* AddContactFeature.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		1E0FCD912C3EF2E800E5E7D8 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FCD8C2C3EEE7E00E5E7D8 /* NumberFactClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E0FCD532C3DAF4000E5E7D8 /* TCA-warmup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E0FCD782C3DAF4300E5E7D8 /* Build configuration list for PBXNativeTarget "TCA-warmup" */;
+			buildPhases = (
+				1E0FCD502C3DAF4000E5E7D8 /* Sources */,
+				1E0FCD512C3DAF4000E5E7D8 /* Frameworks */,
+				1E0FCD522C3DAF4000E5E7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TCA-warmup";
+			packageProductDependencies = (
+				1E0FCD822C3DAFAB00E5E7D8 /* ComposableArchitecture */,
+			);
+			productName = "TCA-warmup";
+			productReference = 1E0FCD542C3DAF4000E5E7D8 /* TCA-warmup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E0FCD632C3DAF4300E5E7D8 /* TCA-warmupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E0FCD7B2C3DAF4300E5E7D8 /* Build configuration list for PBXNativeTarget "TCA-warmupTests" */;
+			buildPhases = (
+				1E0FCD602C3DAF4300E5E7D8 /* Sources */,
+				1E0FCD612C3DAF4300E5E7D8 /* Frameworks */,
+				1E0FCD622C3DAF4300E5E7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E0FCD662C3DAF4300E5E7D8 /* PBXTargetDependency */,
+			);
+			name = "TCA-warmupTests";
+			productName = "TCA-warmupTests";
+			productReference = 1E0FCD642C3DAF4300E5E7D8 /* TCA-warmupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E0FCD6D2C3DAF4300E5E7D8 /* TCA-warmupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E0FCD7E2C3DAF4300E5E7D8 /* Build configuration list for PBXNativeTarget "TCA-warmupUITests" */;
+			buildPhases = (
+				1E0FCD6A2C3DAF4300E5E7D8 /* Sources */,
+				1E0FCD6B2C3DAF4300E5E7D8 /* Frameworks */,
+				1E0FCD6C2C3DAF4300E5E7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E0FCD702C3DAF4300E5E7D8 /* PBXTargetDependency */,
+			);
+			name = "TCA-warmupUITests";
+			productName = "TCA-warmupUITests";
+			productReference = 1E0FCD6E2C3DAF4300E5E7D8 /* TCA-warmupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E0FCD4C2C3DAF4000E5E7D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1E0FCD532C3DAF4000E5E7D8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1E0FCD632C3DAF4300E5E7D8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1E0FCD532C3DAF4000E5E7D8;
+					};
+					1E0FCD6D2C3DAF4300E5E7D8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1E0FCD532C3DAF4000E5E7D8;
+					};
+				};
+			};
+			buildConfigurationList = 1E0FCD4F2C3DAF4000E5E7D8 /* Build configuration list for PBXProject "TCA-warmup" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E0FCD4B2C3DAF4000E5E7D8;
+			packageReferences = (
+				1E0FCD812C3DAFAB00E5E7D8 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = 1E0FCD552C3DAF4000E5E7D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E0FCD532C3DAF4000E5E7D8 /* TCA-warmup */,
+				1E0FCD632C3DAF4300E5E7D8 /* TCA-warmupTests */,
+				1E0FCD6D2C3DAF4300E5E7D8 /* TCA-warmupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E0FCD522C3DAF4000E5E7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0FCD5F2C3DAF4200E5E7D8 /* Preview Assets.xcassets in Resources */,
+				1E0FCD5C2C3DAF4200E5E7D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0FCD622C3DAF4300E5E7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0FCD6C2C3DAF4300E5E7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E0FCD502C3DAF4000E5E7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0FCD952C3EF3ED00E5E7D8 /* AppFeature.swift in Sources */,
+				1E0FCD9F2C3F07F100E5E7D8 /* AddContactView.swift in Sources */,
+				1E0FCD852C3DAFEB00E5E7D8 /* CounterFeature.swift in Sources */,
+				1E0FCD582C3DAF4000E5E7D8 /* TCA_warmupApp.swift in Sources */,
+				1E0FCD872C3DB38E00E5E7D8 /* CounterView.swift in Sources */,
+				1E0FCD992C3F068700E5E7D8 /* ContactsFeature.swift in Sources */,
+				1E0FCD932C3EF30E00E5E7D8 /* AppView.swift in Sources */,
+				1E0FCD8D2C3EEE7E00E5E7D8 /* NumberFactClient.swift in Sources */,
+				1E0FCD9D2C3F079700E5E7D8 /* AddContactFeature.swift in Sources */,
+				1E0FCD9B2C3F072E00E5E7D8 /* ContactsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0FCD602C3DAF4300E5E7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0FCD692C3DAF4300E5E7D8 /* TCA_warmupTests.swift in Sources */,
+				1E0FCD8B2C3EE5B900E5E7D8 /* CounterFeatureTests.swift in Sources */,
+				1E0FCD972C3EF49E00E5E7D8 /* AppFeatureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0FCD6A2C3DAF4300E5E7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0FCD732C3DAF4300E5E7D8 /* TCA_warmupUITests.swift in Sources */,
+				1E0FCD752C3DAF4300E5E7D8 /* TCA_warmupUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E0FCD662C3DAF4300E5E7D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E0FCD532C3DAF4000E5E7D8 /* TCA-warmup */;
+			targetProxy = 1E0FCD652C3DAF4300E5E7D8 /* PBXContainerItemProxy */;
+		};
+		1E0FCD702C3DAF4300E5E7D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E0FCD532C3DAF4000E5E7D8 /* TCA-warmup */;
+			targetProxy = 1E0FCD6F2C3DAF4300E5E7D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E0FCD762C3DAF4300E5E7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E0FCD772C3DAF4300E5E7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E0FCD792C3DAF4300E5E7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TCA-warmup/Preview Content\"";
+				DEVELOPMENT_TEAM = 3W636NF555;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TCA-warmup/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JWR.TCA-warmup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E0FCD7A2C3DAF4300E5E7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TCA-warmup/Preview Content\"";
+				DEVELOPMENT_TEAM = 3W636NF555;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TCA-warmup/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JWR.TCA-warmup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E0FCD7C2C3DAF4300E5E7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W636NF555;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JWR.TCA-warmupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCA-warmup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCA-warmup";
+			};
+			name = Debug;
+		};
+		1E0FCD7D2C3DAF4300E5E7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W636NF555;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JWR.TCA-warmupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCA-warmup.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCA-warmup";
+			};
+			name = Release;
+		};
+		1E0FCD7F2C3DAF4300E5E7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W636NF555;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JWR.TCA-warmupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TCA-warmup";
+			};
+			name = Debug;
+		};
+		1E0FCD802C3DAF4300E5E7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W636NF555;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JWR.TCA-warmupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TCA-warmup";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E0FCD4F2C3DAF4000E5E7D8 /* Build configuration list for PBXProject "TCA-warmup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0FCD762C3DAF4300E5E7D8 /* Debug */,
+				1E0FCD772C3DAF4300E5E7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E0FCD782C3DAF4300E5E7D8 /* Build configuration list for PBXNativeTarget "TCA-warmup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0FCD792C3DAF4300E5E7D8 /* Debug */,
+				1E0FCD7A2C3DAF4300E5E7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E0FCD7B2C3DAF4300E5E7D8 /* Build configuration list for PBXNativeTarget "TCA-warmupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0FCD7C2C3DAF4300E5E7D8 /* Debug */,
+				1E0FCD7D2C3DAF4300E5E7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E0FCD7E2C3DAF4300E5E7D8 /* Build configuration list for PBXNativeTarget "TCA-warmupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0FCD7F2C3DAF4300E5E7D8 /* Debug */,
+				1E0FCD802C3DAF4300E5E7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E0FCD812C3DAFAB00E5E7D8 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.11.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E0FCD822C3DAFAB00E5E7D8 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E0FCD812C3DAFAB00E5E7D8 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1E0FCD4C2C3DAF4000E5E7D8 /* Project object */;
+}
